@@ -182,14 +182,10 @@ export default defineConfig({
 						],
 					},
 					{
-						label: getTranslations('topic-guides').en,
+						label: getTranslations('topic-guides'),
 						link: '/guides/',
 						icon: 'rocket',
 						id: 'guides',
-						badge: {
-							text: 'NEW',
-							variant: 'success',
-						},
 						items: [
 							{
 								label: getTranslations('contributing').en,
@@ -280,6 +276,11 @@ export default defineConfig({
 										collapsed: true,
 									},
 									{
+										label: '@studiocms/cloudinary-image-service',
+										autogenerate: { directory: 'typedoc/studiocms-cloudinary-image-service' },
+										collapsed: true,
+									},
+									{
 										label: '@studiocms/devapps',
 										autogenerate: { directory: 'typedoc/studiocms-devapps' },
 										collapsed: true,
@@ -290,10 +291,45 @@ export default defineConfig({
 										collapsed: true,
 									},
 									{
+										label: '@studiocms/md',
+										autogenerate: { directory: 'typedoc/studiocms-md' },
+										collapsed: true,
+									},
+									{
+										label: '@studiocms/html',
+										autogenerate: { directory: 'typedoc/studiocms-html' },
+										collapsed: true,
+									},
+									{
 										label: '@studiocms/mdx',
 										autogenerate: { directory: 'typedoc/studiocms-mdx' },
 										collapsed: true,
 									},
+									{
+										label: '@studiocms/auth0',
+										autogenerate: { directory: 'typedoc/studiocms-auth0' },
+										collapsed: true,
+									},
+									{
+										label: '@studiocms/discord',
+										autogenerate: { directory: 'typedoc/studiocms-discord' },
+										collapsed: true,
+									},
+									{
+										label: '@studiocms/github',
+										autogenerate: { directory: 'typedoc/studiocms-github' },
+										collapsed: true,
+									},
+									{
+										label: '@studiocms/google',
+										autogenerate: { directory: 'typedoc/studiocms-google' },
+										collapsed: true,
+									},
+									{
+										label: '@withstudiocms/config-utils',
+										autogenerate: { directory: 'typedoc/withstudiocms-config-utils' },
+										collapsed: true,
+									}
 								],
 							},
 						],
